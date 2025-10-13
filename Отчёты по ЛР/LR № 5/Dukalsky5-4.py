@@ -1,0 +1,5 @@
+num = input("Введите 5 чисел через пробел: ")
+min = min(map(int, num.split()))
+max = max(map(int, num.split()))
+print(f"Минимальное число: {min}")
+print(f"Максимальное число: {max}")

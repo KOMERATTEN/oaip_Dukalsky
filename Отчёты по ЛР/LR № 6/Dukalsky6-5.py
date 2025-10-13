@@ -1,0 +1,7 @@
+text = input("\nВведите текст: ")
+word = input("Введите слово для поиска: ")
+count = text.count(word)
+first_index = text.find(word)
+cleaned = text.replace(word, "")
+print(f"Найдено: {count} раз, первый индекс: {first_index}")
+print(f"Текст без слова: {cleaned}")
